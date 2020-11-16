@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sign up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="register-box">
+            <div class="left"></div>
+            <div class="right">
+                <h1>please let us learn more about yourself.</h1>
+                <form action="https://formspree.io/f/{form_id}" method="post">
+                    <!-- name in the input to collect data-->
+                    <div>
+                        <label for='ipt_firstname'> first name</label>
+                        <input type="text" name="name" id="ipt_firstname" placeholder="your first name"> </input>
+                    </div>
+                    <div>
+                        <label for='ipt_lastname'> last name</label>
+                        <input type="text" name="name" id="ipt_lastname" placeholder="your last name"> </input>
+                    </div>
+                    <div>
+                        <label for="ipt_phone"> phone number</label>
+                        <input type="text" name="name" id="ipt_phone" placeholder="000-000-000"> </input>
+                        <label for="ipt_gender"> gender</label>
+                        <select name="gender" id="">
+            <option value ="female"> FEMALE </option> 
+            
+            <option value ="male"> MALE </option> 
+            <option value ="autres"> AUTRES </option> 
+
+        </select> </div>
+                    <div>
+                        <label for="ipt_city"> City</label>
+                        <input type="text" name="name" id="ipt_city" placeholder="your city "> </input>
+                        <label for="ipt_address"> address </label>
+                        <input type="text" name="name" id="ipt_address" placeholder="address"> </input>
+                    </div>
+                    <div>
+                        <label for="ipt_email"> email</label>
+                        <input type="email" name="name" id="ipt_email" placeholder="tipe your current email address"> </input>
+
+                        <label for="ipt_password"> password</label>
+                        <input type="password" name="name" id="ipt_password" placeholder="your password "> </input>
+                    </div>
+
+                    <button type="btnsub" class="btn btn-success">Submit</button>
+
+                    <!-- une fois je clique sur ce bouton faut qu'il quitte l'interface -->
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script>
+</script>
+
+</html>
